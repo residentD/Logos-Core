@@ -13,11 +13,11 @@ public static void main(String[] args) {
 		char c = 'h';
 		boolean b1 = true;
 		
-		System.out.println("мксимальне значення = " + Byte.MAX_VALUE + "          мінімальне значення = " + Byte.MIN_VALUE);
-		System.out.println("мксимальне значення = " + Integer.MAX_VALUE + "   мінімальне значення = " + Integer.MIN_VALUE);
-		System.out.println("мксимальне значення = " + Short.MAX_VALUE + "        мінімальне значення = " + Short.MIN_VALUE);
-		System.out.println("мксимальне значення = " + Long.MAX_VALUE + "     мінімальне значення = " + Long.MIN_VALUE);
-		System.out.println("мксимальне значення = " + Double.MAX_VALUE + "     мінімальне значення = " + Double.MIN_VALUE);
+		System.out.println("РјР°РєСЃРёРјР°Р»СЊРЅРµ Р·РЅР°С‡РµРЅРЅСЏ = " + Byte.MAX_VALUE + "          РјС–РЅС–РјР°Р»СЊРЅРµ Р·РЅР°С‡РµРЅРЅСЏ = " + Byte.MIN_VALUE);
+		System.out.println("РјР°РєСЃРёРјР°Р»СЊРЅРµ Р·РЅР°С‡РµРЅРЅСЏ = " + Integer.MAX_VALUE + "   РјС–РЅС–РјР°Р»СЊРЅРµ Р·РЅР°С‡РµРЅРЅСЏ = " + Integer.MIN_VALUE);
+		System.out.println("РјР°РєСЃРёРјР°Р»СЊРЅРµ Р·РЅР°С‡РµРЅРЅСЏ =  " + Short.MAX_VALUE + "        РјС–РЅС–РјР°Р»СЊРЅРµ Р·РЅР°С‡РµРЅРЅСЏ = " + Short.MIN_VALUE);
+		System.out.println("РјР°РєСЃРёРјР°Р»СЊРЅРµ Р·РЅР°С‡РµРЅРЅСЏ =  " + Long.MAX_VALUE + "     РјС–РЅС–РјР°Р»СЊРЅРµ Р·РЅР°С‡РµРЅРЅСЏ = " + Long.MIN_VALUE);
+		System.out.println("РјР°РєСЃРёРјР°Р»СЊРЅРµ Р·РЅР°С‡РµРЅРЅСЏ =  " + Double.MAX_VALUE + "     РјС–РЅС–РјР°Р»СЊРЅРµ Р·РЅР°С‡РµРЅРЅСЏ = " + Double.MIN_VALUE);
 		
 		
 		int []maxMin = {25, 255, 6, -215, 25, 1045, 1044, -2, 687, 999};
@@ -31,8 +31,8 @@ public static void main(String[] args) {
 			if (maxMin[i] > max)
 				max = maxMin[i];
 		}
-		System.out.println("мінімальне значення = " + min);
-		System.out.println("максимальне значення = " + max);
+		System.out.println("РјС–РЅС–РјР°Р»СЊРЅРµ Р·РЅР°С‡РµРЅРЅСЏ = " + min);
+		System.out.println("РјР°РєСЃРёРјР°Р»СЊРЅРµ Р·РЅР°С‡РµРЅРЅСЏ = " + max);
 	}
 
 }
