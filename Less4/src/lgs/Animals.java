@@ -8,6 +8,7 @@ public class Animals {
 	
 	
 	public Animals(String type, int age, int speed) {
+		super();
 		this.type = type;
 		this.age = age;
 		this.speed = speed;		
