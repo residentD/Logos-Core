@@ -1,6 +1,6 @@
 package Base;
 
-import java.util.ArrayList;
+
 
 import Deputat.Deputat;
 import Frakcia.Frakcia;
@@ -10,8 +10,7 @@ public class Base {
 
 	public static void bases() {
 		VerhRada rada = VerhRada.getInst();
-		ArrayList<Frakcia> frakcions = new ArrayList<Frakcia>();
-		ArrayList<Deputat> deputaty = new ArrayList<Deputat>();
+		
 
 		Frakcia frakcia = new Frakcia("Соплежуї");
 
