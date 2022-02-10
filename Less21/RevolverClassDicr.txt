@@ -1,0 +1,3 @@
+name (class java.lang.String)  ----->  Revolver name
+calibr (int)  ----->  Calibr
+vupysk (class java.time.LocalDate)  ----->  Data vupysky
